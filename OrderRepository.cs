@@ -35,11 +35,12 @@ namespace OrderService
         private IQueryable<Order> BaseQuery()
         {
             return _ctx.Orders
-            .Include(x => x.User)
-            .Include(x => x.Address)
-            .Include(x => x.OrderProducts)
-            .ThenInclude(x => x.Product)
-            .ThenInclude(x => x!.Category);
+            .AsNoTracking()
+            // .Include(x => x.User)
+            //   .Include(x => x.Address)
+            .Include(x => x.OrderProducts);
+         //   .ThenInclude(x => x.Product)
+          //  .ThenInclude(x => x!.Category);
         }
     }
 }

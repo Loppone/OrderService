@@ -7,6 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Models\Business\Category.cs" />
+    <Compile Remove="Models\Business\Product.cs" />
+    <Compile Remove="Models\Business\User.cs" />
+    <Compile Remove="Models\Data\Address.cs" />
+    <Compile Remove="Models\Data\Category.cs" />
+    <Compile Remove="Models\Data\Product.cs" />
+    <Compile Remove="Models\Data\User.cs" />
     <Compile Remove="Models\Dto\CategoryDto.cs" />
     <Compile Remove="Models\Dto\UserDto.cs" />
   </ItemGroup>

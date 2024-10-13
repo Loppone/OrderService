@@ -21,8 +21,5 @@ namespace OrderService.Models.Data
 
         [ForeignKey("OrderId")]
         public virtual Order? Order { get; set; }
-
-        [ForeignKey("ProductId")]
-        public virtual Product? Product { get; set; }
     }
 }

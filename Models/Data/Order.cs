@@ -13,18 +13,10 @@ namespace OrderService.Models.Data
         public int UserId { get; set; }
 
         [Required]
-        public int AddressId { get; set; }
-
-        [Required]
         public DateTime OrderDate { get; set; }
 
-
-        [ForeignKey("UserId")]
-        public virtual User? User { get; set; }
-
-        [ForeignKey("AddressId")]
-        public virtual Address? Address { get; set; }
-
+        //[ForeignKey("UserId")]
+        //public virtual User? User { get; set; }
 
         public virtual ICollection<OrderProduct> OrderProducts { get; set; } = new List<OrderProduct>();
     }
