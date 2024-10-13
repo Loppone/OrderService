@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using OrderService.Models;
+using OrderService.Models.Business;
 
 namespace OrderService
 {

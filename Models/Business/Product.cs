@@ -1,4 +1,4 @@
-﻿namespace OrderService.Models
+﻿namespace OrderService.Models.Business
 {
     public class Product
     {
@@ -13,6 +13,6 @@
 
         public Category? Category { get; set; }
 
-   //     public ICollection<OrderProduct>? OrderProducts { get; set; }
+        //     public ICollection<OrderProduct>? OrderProducts { get; set; }
     }
 }

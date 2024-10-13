@@ -7,6 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Models\Dto\CategoryDto.cs" />
+    <Compile Remove="Models\Dto\UserDto.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="Directory.Build.targets" />
   </ItemGroup>
 
