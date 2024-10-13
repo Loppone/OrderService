@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace OrderService.Data
+namespace OrderService.Models.Data
 {
     [Table("Addresses")]
     public class Address

@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace OrderService.Data
+namespace OrderService.Models.Data
 {
     [Table("Products")]
     public class Product
@@ -16,7 +16,7 @@ namespace OrderService.Data
         public decimal Price { get; set; }
 
         [Required]
-        public int CategoryId { get; set; } 
+        public int CategoryId { get; set; }
 
 
         [ForeignKey("CategoryId")]

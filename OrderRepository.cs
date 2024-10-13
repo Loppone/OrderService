@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using OrderService.Data;
+using OrderService.Models.Data;
 
 namespace OrderService
 {
